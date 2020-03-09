@@ -8,13 +8,16 @@
   <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
   <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
   {% load static %}
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Pacifico&display=swap">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300|Raleway:300,400,900,700italic,700,300,600">
   <link rel="stylesheet" type="text/css" href="{% static "css/jquery.bxslider.css" %}">
   <link rel="stylesheet" type="text/css" href="{% static "css/font-awesome.min.css" %}">
-  <link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.min.css" %}">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="{% static "css/animate.css" %}">
   <link rel="stylesheet" type="text/css" href="{% static "css/style.css" %}">
-  <!-- =======================================================
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+    <!-- =======================================================
     Theme Name: Baker
     Theme URL: https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/
     Author: BootstrapMade.com
@@ -38,7 +41,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                <a class="navbar-brand" href="#">S<span class="logo-dec">&H</span></a>
+                <a class="navbar-brand " href="#">S<span class="logo-dec">&H</span></a>
               </div>
               <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -46,8 +49,6 @@
                   <li class=""><a href="#feature">About</a></li>
                   <li class=""><a href="#service">Services</a></li>
                   <li class=""><a href="#portfolio">Portfolio</a></li>
-                  <li class=""><a href="#testimonial">Testimonial</a></li>
-                  <li class=""><a href="#blog">Blog</a></li>
                   <li class=""><a href="#contact">Contact Us</a></li>
                 </ul>
               </div>
@@ -58,11 +59,10 @@
           <div class="container">
             <div class="row">
               <div class="banner-info text-center wow fadeIn delay-05s">
-                <h1 class="bnr-title">We are at ba<span>ker</span></h1>
-                <h2 class="bnr-sub-title">Starting a new journey!!</h2>
+                <h2 class="bnr-sub-title logo-dec pacifico-font">Welcome To S&H Parking</h2>
                 <p class="bnr-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br>ex ea commodo consequat.</p>
                 <div class="brn-btn">
-                  <a href="#" class="btn btn-download">Download now!</a>
+                  <a href="#" class="btn btn-download">Get Started!</a>
                   <a href="#" class="btn btn-more">Learn More</a>
                 </div>
                 <div class="overlay-detail">
@@ -79,42 +79,36 @@
     <section id="feature" class="section-padding wow fadeIn delay-05s">
       <div class="container">
         <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="wrap-item text-center">
+                <div class="card card-bg ">
+                  <div class="item-img">
+                    <i class="fas fa-search fa-5x"></i>
+                  </div>
+                  <h3 class="pad-bt15">Find your space</h3>
+                  <p>Find the cheapest, closest parking to your destination..</p>
+                </div>
+              </div>
+            </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="wrap-item text-center">
               <div class="item-img">
-                <img src="{% static "img/ser01.png" %}">
+                    <i class="fas fa-car-alt fa-5x"></i>
               </div>
-              <h3 class="pad-bt15">Creative Concept</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <h3 class="pad-bt15">Park</h3>
+              <p>Head to your destination and you'll find a spot waiting for you.</p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="wrap-item text-center">
               <div class="item-img">
-                <img src="{% static "img/ser02.png" %}">
+                <i class="far fa-credit-card fa-5x"></i>
               </div>
-              <h3 class="pad-bt15">Amazing Design</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <h3 class="pad-bt15">Pay</h3>
+              <p>Get a guaranteed parking spot in advance with your credit card.</p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="wrap-item text-center">
-              <div class="item-img">
-                <img src="{% static "img/ser03.png" %}">
-              </div>
-              <h3 class="pad-bt15">Cost effective</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="wrap-item text-center">
-              <div class="item-img">
-                <img src="{% static "img/ser04.png" %}">
-              </div>
-              <h3 class="pad-bt15">Secure</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
@@ -125,37 +119,43 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2 class="service-title pad-bt15">What We Do?</h2>
-            <p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="sub-title pad-bt15">We provide the most optimize way to provide you the parking space.<br>Make your organisation organised.</p>
             <hr class="bottom-line">
           </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <h3><span>D</span>esign And Developement</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <a href="">learn more...</a>
+          <section id="feature" class="section-padding wow fadeIn delay-05s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="wrap-item text-center">
+              <div class="item-img">
+                <i class="fas fa-search fa-5x"></i>
+              </div>
+              <h3 class="pad-bt15">Find your space</h3>
+              <p>Find the cheapest, closest parking to your destination..</p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <h3><span>W</span>ebsite Maintenance</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <a href="">learn more...</a>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="wrap-item text-center">
+              <div class="item-img">
+                    <i class="fas fa-car-alt fa-5x"></i>
+              </div>
+              <h3 class="pad-bt15">Park</h3>
+              <p>Head to your destination and you'll find a spot waiting for you.</p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <h3><span>S</span>eo Optimization</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <a href="">learn more...</a>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="wrap-item text-center">
+              <div class="item-img">
+                <i class="far fa-credit-card fa-5x"></i>
+              </div>
+              <h3 class="pad-bt15">Pay</h3>
+              <p>Get a guaranteed parking spot in advance with your credit card.</p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <h3><span>D</span>igital Marketing</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <a href="">Learn more...</a>
-            </div>
-          </div>
+
+        </div>
+      </div>
+    </section>
         </div>
       </div>
     </section>
@@ -173,7 +173,7 @@
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
             <figure>
-              <img src="{% static "img/port01.jpg" %}" class="img-responsive">
+              <img src="{% static "img/port01.jpg" %}" class="img-responsiveimg-responsive">
               <figcaption>
                 <h2>Project For Everyone</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
@@ -230,123 +230,15 @@
     </section>
     <!---->
     <!---->
-    <section class="wow fadeInUp delay-03s">
-      <div class="bg-testicolor">
-        <div class="container ">
-          <div class="row">
-            <div class="testimonial-item">
-              <ul class="bxslider">
-                <li>
-                  <blockquote>
-
-                    <p>Come a day there won't be room for naughty men like us to slip about at all. This job goes south, there well may not be another. </p>
-                  </blockquote>
-                  <small>- Manav Kutta, Client</small>
-                </li>
-                <li>
-                  <blockquote>
-
-                    <p>So here is us, on the raggedy edge. Don't push me, and I won't push you. </p>
-                  </blockquote>
-                  <small>- Sahil Bsdiwala, Client</small>
-                </li>
-                <li>
-                  <blockquote>
-                    <p>Come a day there won't be room for naughty men like us to slip about at all. This job goes south, there well may not be another.</p>
-                  </blockquote>
-                  <small>- Harshit Hoshiyaar, Client</small>
-                </li>
-                <li>
-                  <blockquote>
-                    <p>So here is us, on the raggedy edge. Don't push me, and I won't push you.</p>
-                  </blockquote>
-                  <small>Kitty Momos</small>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      <!---here goes reviewws>
     <!---->
-    <section id="blog" class="section-padding wow fadeInUp delay-05s">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2 class="service-title pad-bt15">Latest from our blog</h2>
-            <p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>
-            <hr class="bottom-line">
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="blog-sec">
-              <div class="blog-img">
-                <a href="">
-                  <img src="{% static "img/blog01.jpg" %}" class="img-responsive">
-                </a>
-              </div>
-              <div class="blog-info">
-                <h2>This is Lorem ipsum heading.</h2>
-                <div class="blog-comment">
-                  <p>Posted In: <span>Legal Advice</span></p>
-                  <p>
-                    <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
-                    <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
-                </div>
-                <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>
-                <a href="" class="read-more">Read more →</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="blog-sec">
-              <div class="blog-img">
-                <a href="">
-                  <img src="{% static "img/blog02.jpg" %}" class="img-responsive">
-                </a>
-              </div>
-              <div class="blog-info">
-                <h2>This is Lorem ipsum heading.</h2>
-                <div class="blog-comment">
-                  <p>Posted In: <span>Legal Advice</span></p>
-                  <p>
-                    <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
-                    <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
-                </div>
-                <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>
-                <a href="" class="read-more">Read more →</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="blog-sec">
-              <div class="blog-img">
-                <a href="">
-                  <img src="{% static "img/blog03.jpg" %}" class="img-responsive">
-                </a>
-              </div>
-              <div class="blog-info">
-                <h2>This is Lorem ipsum heading.</h2>
-                <div class="blog-comment">
-                  <p>Posted In: <span>Legal Advice</span></p>
-                  <p>
-                    <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
-                    <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
-                </div>
-                <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>
-                <a href="" class="read-more">Read more →</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <!---->
     <section id="contact" class="section-padding wow fadeInUp delay-05s">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center white">
             <h2 class="service-title pad-bt15">Keep in touch with us</h2>
-            <p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="sub-title pad-bt15">24/7 Service Available</p>
             <hr class="bottom-line white-bg">
           </div>
           <div class="col-md-6 col-sm-6 col-xs-12">
@@ -395,22 +287,7 @@
     </section>
     <!---->
     <!---->
-    <footer id="footer">
-      <div class="container">
-        <div class="row text-center">
-          <p>&copy; Baker Theme. All Rights Reserved.</p>
-          <div class="credits">
-            <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Baker
-            -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
-        </div>
-      </div>
-    </footer>
+
     <!---->
   </div>
   <script src="{% static "js/jquery.min.js" %}"></script>
